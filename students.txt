@@ -3,10 +3,10 @@ Firstname: Ivan
 Age: 20
 
 Lastname: Stark
-Firstname: Tony
+Firstname:
 Age: 40
 
 Lastname: Parker
 
 Firstname: Peter
-Age: 19
+Age:

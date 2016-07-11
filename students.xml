@@ -6,12 +6,12 @@
 </student>
 <student>
 <lastname>Stark</lastname>
-<firstname>Tony</firstname>
+<firstname></firstname>
 <age>40</age>
 </student>
 <student>
 <lastname>Parker</lastname>
 <firstname>Peter</firstname>
-<age>19</age>
+<age>0</age>
 </student>
 </students>

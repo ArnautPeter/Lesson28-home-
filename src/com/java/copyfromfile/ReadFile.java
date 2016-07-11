@@ -23,14 +23,22 @@ public class ReadFile { //read from txt file
                 if (line.equals("")) continue;
                 String[] arr = line.split(":");
                 if (arr[0].equals("Lastname")) {
-                    lastName = arr[1].trim();
+                    if (arr.length == 1) lastName = null;
+                    else
+                        lastName = arr[1].trim();
                     continue;
                 }
                 if (arr[0].equals("Firstname")) {
-                    firstName = arr[1].trim();
+                    if (arr.length == 1) firstName = null;
+                    else
+                        firstName = arr[1].trim();
                     continue;
                 }
-                if (arr[0].equals("Age")) age = Integer.parseInt(arr[1].trim());
+                if (arr[0].equals("Age")) {
+                    if (arr.length == 1) age = 0;
+                    else
+                        age = Integer.parseInt(arr[1].trim());
+                }
                 Student student = new Student(lastName, firstName, age);
                 students.add(student);
             }
