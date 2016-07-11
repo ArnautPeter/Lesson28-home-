@@ -1,0 +1,17 @@
+<students>
+<student>
+<lastname>Ivanov</lastname>
+<firstname>Ivan</firstname>
+<age>20</age>
+</student>
+<student>
+<lastname>Stark</lastname>
+<firstname>Tony</firstname>
+<age>40</age>
+</student>
+<student>
+<lastname>Parker</lastname>
+<firstname>Peter</firstname>
+<age>19</age>
+</student>
+</students>
