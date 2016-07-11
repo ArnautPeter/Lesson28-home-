@@ -11,6 +11,5 @@ public class Main {
         File file = new File("F:" + File.separator + "java" + File.separator + "Lesson28" + File.separator + "students.txt");
         ArrayList<Student> students = ReadFile.readFromFile(file);
         WriteToFile.wtiteToFile(students);
-
     }
 }

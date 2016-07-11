@@ -13,12 +13,10 @@ public class Student {
     }
 
     public String getLastName() {
-        if (lastName == null) return "";
         return lastName;
     }
 
     public String getFirstName() {
-        if (firstName == null) return "";
         return firstName;
     }
 

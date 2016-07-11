@@ -23,13 +23,13 @@ public class ReadFile { //read from txt file
                 if (line.equals("")) continue;
                 String[] arr = line.split(":");
                 if (arr[0].equals("Lastname")) {
-                    if (arr.length == 1) lastName = null;
+                    if (arr.length == 1) lastName = "";
                     else
                         lastName = arr[1].trim();
                     continue;
                 }
                 if (arr[0].equals("Firstname")) {
-                    if (arr.length == 1) firstName = null;
+                    if (arr.length == 1) firstName = "";
                     else
                         firstName = arr[1].trim();
                     continue;
